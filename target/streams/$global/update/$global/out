@@ -1,0 +1,1017 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/jhawkins/workspace/walkAmongUs/}default-d6eec7...[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: walkamongus#walkamongus_2.9.2;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-lang#scala-library;2.9.2[0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.9.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.9.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/jhawkins/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/jhawkins/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0msbt-chain: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0mlocal: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/jhawkins/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.scala-lang#scala-library;2.9.2 (resolved by sbt-chain): /Users/jhawkins/.ivy2/cache/org.scala-lang/scala-library/ivy-2.9.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0m	checking org.scala-lang#scala-library;2.9.2 from sbt-chain against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.scala-lang#scala-library;2.9.2 from sbt-chain[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.9.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0minfo[0m] [0mResolving com.codahale#jerkson_2.9.1;0.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.codahale#jerkson_2.9.1;0.5.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.codahale#jerkson_2.9.1;0.5.0: tried /Users/jhawkins/.ivy2/cache/com.codahale/jerkson_2.9.1/ivy-0.5.0.xml[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.codahale#jerkson_2.9.1;0.5.0: tried /Users/jhawkins/.ivy2/cache/com.codahale/jerkson_2.9.1/ivy-0.5.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying /Users/jhawkins/.ivy2/local/com.codahale/jerkson_2.9.1/0.5.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m		tried /Users/jhawkins/.ivy2/local/com.codahale/jerkson_2.9.1/0.5.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.codahale#jerkson_2.9.1;0.5.0: res=/Users/jhawkins/.ivy2/local/com.codahale/jerkson_2.9.1/0.5.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mrepo.codahale.com: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.codahale#jerkson_2.9.1;0.5.0: tried /Users/jhawkins/.ivy2/cache/com.codahale/jerkson_2.9.1/ivy-0.5.0.xml[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: found md file for com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom (0.5.0)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@1e7603b4[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for com.codahale#jerkson_2.9.1;0.5.0: tried /Users/jhawkins/.ivy2/cache/com.codahale/jerkson_2.9.1/ivy-0.5.0.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: downloading http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom[0m
+[0m[[0mdebug[0m] [0m		to /Users/jhawkins/.ivy2/cache/com.codahale/jerkson_2.9.1/ivy-0.5.0.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: downloading http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/ll/0s4wwsp92z933mxyjbzm7v8c0000gn/T/ivytmp3833254889504780099sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.codahale#jerkson_2.9.1;0.5.0!jerkson_2.9.1.pom(pom.original) (488ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /Users/jhawkins/.ivy2/local/com.codahale/jerkson_2.9.1/0.5.0/jars/jerkson_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/jhawkins/.ivy2/local/com.codahale/jerkson_2.9.1/0.5.0/jars/jerkson_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for com.codahale#jerkson_2.9.1;0.5.0: res=/Users/jhawkins/.ivy2/local/com.codahale/jerkson_2.9.1/0.5.0/jars/jerkson_2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar[0m
+[0m[[0mdebug[0m] [0mno source artifact found for com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mno javadoc artifact found for com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for com.codahale#jerkson_2.9.1;0.5.0; parsed=com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0m	checking com.codahale#jerkson_2.9.1;0.5.0 from repo.codahale.com against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: com.codahale#jerkson_2.9.1;0.5.0 from repo.codahale.com[0m
+[0m[[0mdebug[0m] [0m	found com.codahale#jerkson_2.9.1;0.5.0 in repo.codahale.com[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-core-asl/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	listing all in /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-core-asl/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	using local to list all in /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-core-asl/[0m
+[0m[[0mdebug[0m] [0m		no resources found[0m
+[0m[[0mdebug[0m] [0m	local: unable to list resources for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0): pattern=/Users/jhawkins/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/[revision]/jackson-core-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/[revision]/jackson-core-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using repo.codahale.com to list all in http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/[0m
+[0m[[0mdebug[0m] [0mproblem while listing resources in http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/ with repo.codahale.com:[0m
+[0m[[0mdebug[0m] [0m  java.io.IOException The HTTP response code for http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/ did not indicate a success. See log for more detail.[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: unable to list resources for org/codehaus/jackson#jackson-core-asl;[1.9.0,2.0.0): pattern=http://repo.codahale.com/[organisation]/[module](_[scalaVersion])(_[sbtVersion])/[revision]/[artifact]-[revision](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: no ivy file found for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/[revision]/jackson-core-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/[revision]/jackson-core-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using public to list all in http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.9-2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.9-3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.9-4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.9-5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/0.9.9-6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.0.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.0.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.1.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.2.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.2.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.3.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.3.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.3.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.3.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.3.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.3.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.4.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.5.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.6.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.7.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.10/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.11/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.8.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.10/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.11/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/maven-metadata.xml].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/maven-metadata.xml.md5].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/maven-metadata.xml.sha1].[0m
+[0m[[0mdebug[0m] [0m		found 84 resources[0m
+[0m[[0mdebug[0m] [0m	found revs: [0.9.6, 0.9.7, 0.9.8, 0.9.9, 0.9.9-2, 0.9.9-3, 0.9.9-4, 0.9.9-5, 0.9.9-6, 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.1.2, 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.4.0, 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.5.7, 1.5.8, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6, 1.6.7, 1.6.9, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.4, 1.7.5, 1.7.6, 1.7.7, 1.7.8, 1.7.9, 1.8.0, 1.8.1, 1.8.10, 1.8.11, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.9.0, 1.9.1, 1.9.10, 1.9.11, 1.9.12, 1.9.2, 1.9.3, 1.9.4, 1.9.5, 1.9.6, 1.9.7, 1.9.8, 1.9.9, maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.sha1][0m
+[0m[[0mdebug[0m] [0mpublic: no latest strategy defined: using default[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom (1.9.12)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@1e7603b4[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.codehaus.jackson#jackson-core-asl;1.9.12: tried /Users/jhawkins/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom[0m
+[0m[[0mdebug[0m] [0m		to /Users/jhawkins/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/ivy-1.9.12.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/ll/0s4wwsp92z933mxyjbzm7v8c0000gn/T/ivytmp8439989586897665543sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.12!jackson-core-asl.pom(pom.original) (101ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.12/jars/jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.12/jars/jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.codehaus.jackson#jackson-core-asl;1.9.12: res=/Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-core-asl/1.9.12/jars/jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: resource not reachable for org/codehaus/jackson#jackson-core-asl;1.9.12: res=http://repo.codahale.com/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0mno source artifact found for org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mno javadoc artifact found for org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.codehaus.jackson#jackson-core-asl;1.9.12; parsed=org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m		[1.9.12] org.codehaus.jackson#jackson-core-asl[0m
+[0m[[0mdebug[0m] [0m	checking org.codehaus.jackson#jackson-core-asl;1.9.12 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.codehaus.jackson#jackson-core-asl;1.9.12 from public[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-core-asl;1.9.12 in public[0m
+[0m[[0mdebug[0m] [0m	[1.9.12] org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	listing all in /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/[revision]/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	using local to list all in /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/[0m
+[0m[[0mdebug[0m] [0m		no resources found[0m
+[0m[[0mdebug[0m] [0m	local: unable to list resources for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0): pattern=/Users/jhawkins/.ivy2/local/[organisation]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/[revision]/jackson-mapper-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/[revision]/jackson-mapper-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using repo.codahale.com to list all in http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/[0m
+[0m[[0mdebug[0m] [0mproblem while listing resources in http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/ with repo.codahale.com:[0m
+[0m[[0mdebug[0m] [0m  java.io.IOException The HTTP response code for http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/ did not indicate a success. See log for more detail.[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: unable to list resources for org/codehaus/jackson#jackson-mapper-asl;[1.9.0,2.0.0): pattern=http://repo.codahale.com/[organisation]/[module](_[scalaVersion])(_[sbtVersion])/[revision]/[artifact]-[revision](-[classifier]).[ext][0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0mdefault-cache: no cached resolved revision for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/[revision]/jackson-mapper-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	listing all in http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/[revision]/jackson-mapper-asl-[revision].pom[0m
+[0m[[0mdebug[0m] [0m	using public to list all in http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.9-2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.9-3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.9-4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.9-5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/0.9.9-6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.0.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.0.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.1.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.2.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.2.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.3.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.3.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.3.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.3.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.3.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.3.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.4.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.5.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.6.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.7.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.10/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.11/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.8.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.0/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.1/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.10/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.11/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.2/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.3/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.4/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.5/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.6/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.7/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.8/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.9/].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/maven-metadata.xml].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/maven-metadata.xml.md5].[0m
+[0m[[0mdebug[0m] [0mApacheURLLister found URL=[http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/maven-metadata.xml.sha1].[0m
+[0m[[0mdebug[0m] [0m		found 84 resources[0m
+[0m[[0mdebug[0m] [0m	found revs: [0.9.6, 0.9.7, 0.9.8, 0.9.9, 0.9.9-2, 0.9.9-3, 0.9.9-4, 0.9.9-5, 0.9.9-6, 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.1.2, 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.3.2, 1.3.3, 1.3.4, 1.3.5, 1.4.0, 1.4.1, 1.4.2, 1.4.3, 1.4.4, 1.4.5, 1.5.0, 1.5.1, 1.5.2, 1.5.3, 1.5.4, 1.5.5, 1.5.6, 1.5.7, 1.5.8, 1.6.0, 1.6.1, 1.6.2, 1.6.3, 1.6.4, 1.6.5, 1.6.6, 1.6.7, 1.6.9, 1.7.0, 1.7.1, 1.7.2, 1.7.3, 1.7.4, 1.7.5, 1.7.6, 1.7.7, 1.7.8, 1.7.9, 1.8.0, 1.8.1, 1.8.10, 1.8.11, 1.8.2, 1.8.3, 1.8.4, 1.8.5, 1.8.6, 1.8.7, 1.8.8, 1.8.9, 1.9.0, 1.9.1, 1.9.10, 1.9.11, 1.9.12, 1.9.2, 1.9.3, 1.9.4, 1.9.5, 1.9.6, 1.9.7, 1.9.8, 1.9.9, maven-metadata.xml, maven-metadata.xml.md5, maven-metadata.xml.sha1][0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom (1.9.12)[0m
+[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@1e7603b4[0m
+[0m[[0mdebug[0m] [0m	no ivy file in cache for org.codehaus.jackson#jackson-mapper-asl;1.9.12: tried /Users/jhawkins/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom[0m
+[0m[[0mdebug[0m] [0m		to /Users/jhawkins/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/ivy-1.9.12.xml.original.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/ll/0s4wwsp92z933mxyjbzm7v8c0000gn/T/ivytmp156269569941236347sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.12!jackson-mapper-asl.pom(pom.original) (81ms)[0m
+[0m[[0mdebug[0m] [0m	 trying /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.12/jars/jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.12/jars/jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m	local: resource not reachable for org.codehaus.jackson#jackson-mapper-asl;1.9.12: res=/Users/jhawkins/.ivy2/local/org.codehaus.jackson/jackson-mapper-asl/1.9.12/jars/jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: resource not reachable for org/codehaus/jackson#jackson-mapper-asl;1.9.12: res=http://repo.codahale.com/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0mno source artifact found for org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mno javadoc artifact found for org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.codehaus.jackson#jackson-mapper-asl;1.9.12; parsed=org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m		[1.9.12] org.codehaus.jackson#jackson-mapper-asl[0m
+[0m[[0mdebug[0m] [0m	checking org.codehaus.jackson#jackson-mapper-asl;1.9.12 from public against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: org.codehaus.jackson#jackson-mapper-asl;1.9.12 from public[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-mapper-asl;1.9.12 in public[0m
+[0m[[0mdebug[0m] [0m	[1.9.12] org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mcompile is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [test][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test[0m
+[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=provided[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=optional[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [test][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [compile][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->org.scala-lang#scala-library;2.9.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->runtime][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->compile][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->master(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.scala-lang#scala-library;2.9.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.codahale#jerkson_2.9.1;0.5.0->org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-mapper-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;[1.9.0,2.0.0)->org.codehaus.jackson#jackson-core-asl;[1.9.0,2.0.0) [runtime->compile][0m
+[0m[[0mdebug[0m] [0mloadData of org.codehaus.jackson#jackson-core-asl;1.9.12 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies walkamongus#walkamongus_2.9.2;1.0->com.codahale#jerkson_2.9.1;0.5.0 [compile->master][0m
+[0m[[0mdebug[0m] [0mloadData of com.codahale#jerkson_2.9.1;0.5.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.9.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=sources[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=docs[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for walkamongus#walkamongus_2.9.2;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mloadData of walkamongus#walkamongus_2.9.2;1.0 of rootConf=pom[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/walkamongus/walkamongus_2.9.2/1.0/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in test: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in runtime-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.9.2 in compile-internal: excluding org.scala-lang#scala-library;2.9.2!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: downloading http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/jhawkins/.ivy2/cache/com.codahale/jerkson_2.9.1/jars/jerkson_2.9.1-0.5.0.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	repo.codahale.com: downloading http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/ll/0s4wwsp92z933mxyjbzm7v8c0000gn/T/ivytmp7186414913938651476sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.codahale.com/com/codahale/jerkson_2.9.1/0.5.0/jerkson_2.9.1-0.5.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.codahale#jerkson_2.9.1;0.5.0!jerkson_2.9.1.jar (8472ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/jhawkins/.ivy2/cache/org.codehaus.jackson/jackson-core-asl/jars/jackson-core-asl-1.9.12.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/ll/0s4wwsp92z933mxyjbzm7v8c0000gn/T/ivytmp2725020862926789565sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.12/jackson-core-asl-1.9.12.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.12!jackson-core-asl.jar (827ms)[0m
+[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0mdebug[0m] [0m		to /Users/jhawkins/.ivy2/cache/org.codehaus.jackson/jackson-mapper-asl/jars/jackson-mapper-asl-1.9.12.jar.part[0m
+[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar: checking...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar.sha1[0m
+[0m[[0mdebug[0m] [0m		to /var/folders/ll/0s4wwsp92z933mxyjbzm7v8c0000gn/T/ivytmp1663368564192314255sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.12/jackson-mapper-asl-1.9.12.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.12!jackson-mapper-asl.jar (700ms)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3476ms :: artifacts dl 10013ms[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 compile produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 runtime produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 test produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 provided produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 optional produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 compile-internal produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 runtime-internal produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 4[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.9.2 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : com.codahale#jerkson_2.9.1;0.5.0 / Number of dependencies = 4[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  com.codahale#jerkson_2.9.1 depends on org.scala-lang#scala-library;2.9.1, doesn't match org.scala-lang#scala-library;2.9.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-core-asl;1.9.12 / Number of dependencies = 0[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : org.codehaus.jackson#jackson-mapper-asl;1.9.12 / Number of dependencies = 1[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mSort done for : com.codahale#jerkson_2.9.1;0.5.0[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-core-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0mModule descriptor is processed : org.codehaus.jackson#jackson-mapper-asl;1.9.12[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 test-internal produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 plugin produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 sources produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 docs produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
+[0m[[0mdebug[0m] [0m	report for walkamongus#walkamongus_2.9.2;1.0 pom produced in /Users/jhawkins/workspace/walkAmongUs/target/resolution-cache/reports/walkamongus-walkamongus_2.9.2/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (3476ms resolve - 10013ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
